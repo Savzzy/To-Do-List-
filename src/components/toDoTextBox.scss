@@ -1,0 +1,36 @@
+.toDoTextBoxDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.textBoxInput{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.submitButton{
+    display: flex;
+    flex-direction: row;
+
+}
+
+ol{
+    background: #1a19190a;
+    width: 40%;
+    margin-left: 28%;
+    border-radius: 10px;
+}
+ol li {
+    padding : 5px;
+}
+
+ol li div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
